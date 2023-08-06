@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![img](/img.png)
+![img](./public/img.png)
 
 
 ### Links
