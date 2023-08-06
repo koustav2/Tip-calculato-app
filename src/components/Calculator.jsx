@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react'
-
+import bgImg from '../assets/images/logo.svg'
 
 function Calculator() {
     const [billAmount, setBillAmount] = useState(0)
@@ -42,7 +42,7 @@ function Calculator() {
         <>
             <h1>
                 <img
-                    src="/public/logo.svg"
+                    src={bgImg}
                     alt="logo-for-calculator"
                     className="block mx-auto my-[3rem]"
                 />
